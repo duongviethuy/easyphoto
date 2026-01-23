@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+pillow
+rembg[cpu]
+python-multipart
+python-dotenv
+numpy
+opencv-python-headless
