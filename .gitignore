@@ -1,35 +1,21 @@
-# ---- OS / IDE ----
+# OS / Editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# ---- Python (api) ----
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
+# Python
+python-server/.venv/
+python-server/**/__pycache__/
+python-server/**/*.pyc
+python-server/.env
+
+# Node / Next
+web/node_modules/
+web/.next/
+web/.env
+web/.env.local
+web/.env.*.local
+
+# Logs
 *.log
-.venv/
-venv/
-env/
-*.egg-info/
-dist/
-build/
-.pytest_cache/
-
-# ---- Node (web) ----
-node_modules/
-.next/
-out/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-.pnpm-store/
-
-# ---- Secrets ----
-.env
-.env.*
-*.key
-*.pem
